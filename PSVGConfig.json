@@ -1,0 +1,7 @@
+{
+    "src": "src",
+    "doc": "doc",
+    "public": "public",
+    "docFiles": ["js", "compdir.js", "app.js"],
+    "excludeFromProduction": []
+}
