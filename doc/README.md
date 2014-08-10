@@ -1,4 +1,4 @@
-# Project Documentation
+# CoMix Project Documentation
 
 [TOC &#187;](#TOC)
 
@@ -6,14 +6,38 @@
 ## assets-js
 
 1. (Code) [PSVG](assets/js/app.md) - The `PSVG` module declaration. (Includes `ngCompanions`, a collection of directives that integrate **AngularJS** and **PSVG**.)
+1. [assets-js-angular-sanitize](assets/js/angular-sanitize.md) - 
 1. [App](assets/js/index.md) - CoMix Application
+1. [assets-js-jquery-cookie](assets/js/jquery-cookie.md) - 
+
+
+[TOC &#187;](#TOC)
+<a name="assets-js-cubehenge"></a>
+## assets-js-cubehenge
+
+1. (CubeHenge JSON API) [chAPI](assets/js/cubehenge/chAPI.md) - A factory used to access the CubeHenge JSON Gateway.
+1. [assets-js-cubehenge-cubehengeJSON](assets/js/cubehenge/cubehengeJSON.md) - 
+
+
+[TOC &#187;](#TOC)
+<a name="assets-search"></a>
+## assets-search
+
+1. [assets-search-model](assets/search/model.md) - 
+
+
+[TOC &#187;](#TOC)
+<a name="class-with"></a>
+## class-with
+
+1. [class-with-timeout](class/with/timeout.md) - Apply a CSS class after a timeout in milliseconds.
 
 
 [TOC &#187;](#TOC)
 <a name="fx-hover"></a>
 ## fx-hover
 
-1. [fx-hover-animate](fx/hover/animate.md) - Nova Cast hover fx.
+1. [fx-hover-animate](fx/hover/animate.md) - Animate child objects as frames on hover.
 
 
 [TOC &#187;](#TOC)
@@ -65,12 +89,24 @@
 
 
 [TOC &#187;](#TOC)
+<a name="views"></a>
+## views
+
+1. (Login) [views-login](views/login.md) - The login view
+1. [views-search](views/search.md) - Character Search
+1. [views-show](views/show.md) - Show all views in pinium.
+
+
+[TOC &#187;](#TOC)
 
 
 <a name="TOC"></a>
 # Table Of Contents
 
 [assets-js](#assets-js)
+<br>[assets-js-cubehenge](#assets-js-cubehenge)
+<br>[assets-search](#assets-search)
+<br>[class-with](#class-with)
 <br>[fx-hover](#fx-hover)
 <br>[p](#p)
 <br>[p-layout](#p-layout)
@@ -78,7 +114,8 @@
 <br>[p-layout-expand](#p-layout-expand)
 <br>[svg](#svg)
 <br>[svg-round](#svg-round)
+<br>[views](#views)
 <br>
 
 
-**15 Files Total**
+**24 Files Total**

@@ -1,9 +1,13 @@
 html,
 body {
   margin: 0;
+  overflow: hidden;
 }
 .pointer {
   cursor: pointer;
+}
+.no-hit {
+  pointer-events: none;
 }
 .zero-alpha {
   opacity: 0 !important;
