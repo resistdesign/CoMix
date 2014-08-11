@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "psvg --run --relay=comix.resistdesign.com:80/cubehenge"
+    "start": "psvg --run --relay=comix.resistdesign.com:80/cubehenge",
+    "deploy": "psvg --deploy --target=/Users/globalleader/workspace/CoMixSRV/Project/src/htdocs"
   },
   "author": "Ryan T. Graff",
   "license": "MIT"

@@ -11,9 +11,3 @@
 *[views-login] .login-btn:active {
   opacity: 0.5;
 }
-*[views-login] input {
-  border-style: none !important;
-  padding: 0;
-  padding-left: 10px;
-  padding-right: 10px;
-}

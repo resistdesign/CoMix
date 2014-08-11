@@ -15,30 +15,50 @@ angular.module( "App", [ "PSVG", "ngRoute" ] )
 			
 			$routeProvider
 				
-				// *** Main App Views ***
+				// *** Auth ***
 				
 				.when( "/login", { directives: { "main": "views-login" } } )
+				.when( "/activate/:token", { directives: { "main": "views-activate" } } )
+				.when( "/reset/:token", { directives: { "main": "views-reset" } } )
+				.when( "/forgot", { directives: { "main": "views-forgot" } } )
+				
+				// *** Main App Views ***
+				
 				.when( "/search", { directives: { "main": "views-search" } } )
 				
 				// *** Default ***
 				
-				.otherwise( "/" );
+				.otherwise( { main: true, directives: { "main": "" } } );
 			
 		}
 		
 	] )
 	.controller( "AppCTRL", [
 		
-		"$scope", "$location",
-		function( scope, $location ){
+		"$scope", "$location", "$rootScope", "$route",
+		function( scope, $location, $rootScope, $route ){
 			
 			/**
 			 * @value true/false intro - A value designating whether or not the app is in intro mode.
 			 */
 			
-			scope.intro = $location.path() && $location.path() !== "/" ? false : true;
+			scope.intro = true;
 			
-			// *** Setup ***
+			var setIntro = function(){
+				
+				scope.intro = !$route.current || $route.current.main;
+				
+			};
+			
+			// *** Path ***
+			
+			$rootScope.$on( "$routeChangeSuccess", function( event, data ){
+				
+				setIntro();
+				
+			} );
+			
+			// *** Return Controller ***
 			
 			return this;
 			
