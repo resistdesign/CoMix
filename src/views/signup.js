@@ -6,7 +6,8 @@
 angular.module( "App" )
 	.directive( "viewsSignup", [
 		
-		function(){
+		"chAPI",
+		function( chAPI ){
 			
 			return {
 				
@@ -18,11 +19,29 @@ angular.module( "App" )
 					
 					// *** Values ***
 					
+					/**
+					 * @value text first - The first name of the user.
+					 */
+					
 					scope.first = undefined;
+					
+					/**
+					 * @value text last - The first last of the user.
+					 */
+					
 					scope.last = undefined;
+					
+					/**
+					 * @value text email - The email address of the user.
+					 */
+					
 					scope.email = undefined;
 					
 					// *** API ***
+					
+					/**
+					 * @function text callService - Call the service to create a new user.
+					 */
 					
 					scope.callService = function(){
 						

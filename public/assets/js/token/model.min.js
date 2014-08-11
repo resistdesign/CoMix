@@ -1,6 +1,6 @@
 
 /**
- * tokenModel
+ * @name - tokenModel
  */
 
 /**

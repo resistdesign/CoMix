@@ -26,13 +26,25 @@ angular.module( "App" )
 					
 					// *** Values ***
 					
+					/**
+					 * @value text password - The new password for the user.
+					 */
+					
 					scope.password = undefined;
+					
+					/**
+					 * @value text confirmedPassword - The new password for the user for confirmation.
+					 */
 					
 					scope.confirmedPassword = undefined;
 					
 					// *** API ***
 					
 					var method = resetMode ? "resetPasswordForUser" : "activateUser";
+					
+					/**
+					 * @function text callService - Call the service to set the new password for the user.
+					 */
 					
 					scope.callService = function(){
 						

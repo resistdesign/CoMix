@@ -6,7 +6,8 @@
 angular.module( "App" )
 	.directive( "viewsForgot", [
 		
-		function(){
+		"chAPI",
+		function( chAPI ){
 			
 			return {
 				
@@ -18,9 +19,17 @@ angular.module( "App" )
 					
 					// *** Values ***
 					
+					/**
+					 * @value text email - The email address of the user.
+					 */
+					
 					scope.email = undefined;
 					
 					// *** API ***
+					
+					/**
+					 * @function text callService - Call the service to send a password reset request email to the user.
+					 */
 					
 					scope.callService = function(){
 						

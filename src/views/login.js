@@ -29,6 +29,10 @@ angular.module( "App" )
 					 * @value object user - The user object.
 					 * */
 					
+					/**
+					 * @value text user.email - The email address of the user.
+					 * */
+					
 					scope.user = {
 						
 						email: angular.element.cookie( CS_TOOLS_EMAIL )
@@ -52,7 +56,7 @@ angular.module( "App" )
 							angular.element.cookie( CS_TOOLS_EMAIL, scope.user.email, { expires: 14 } );
 
 							// Go to show.
-							$location.path( "/show" );
+							$location.path( "/collections" );
 							
 						}, function( data ){
 							

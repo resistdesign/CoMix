@@ -1,6 +1,6 @@
-# views-login
+# views-collections
 
-### The login view
+### Colections View
 
 
 #### Settings
@@ -17,12 +17,8 @@
 
 #### Internally Accessible Values
 
-1. `user` (object) - The user object.
-1. `user.email` (text) - The email address of the user.
 
 
 #### Internally Accessible Functions
-
-1. `login()` (nothing) - Login.
 
 

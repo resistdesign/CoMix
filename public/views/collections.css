@@ -1,0 +1,9 @@
+*[views-collections] .new-coll-btn:hover {
+  opacity: 0.5;
+}
+*[views-collections] .new-coll-btn:active {
+  opacity: 0.25;
+}
+*[views-collections] .selected-coll {
+  background: #0D9FFA !important;
+}

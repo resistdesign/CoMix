@@ -20,6 +20,20 @@
 
 
 [TOC &#187;](#TOC)
+<a name="assets-js-marvel"></a>
+## assets-js-marvel
+
+1. [marvelAPI](assets/js/marvel/api.md) - Marvel API
+
+
+[TOC &#187;](#TOC)
+<a name="assets-js-token"></a>
+## assets-js-token
+
+1. [tokenModel](assets/js/token/model.md) - Activation/Password Reset Token Model
+
+
+[TOC &#187;](#TOC)
 <a name="assets-search"></a>
 ## assets-search
 
@@ -31,6 +45,13 @@
 ## class-with
 
 1. [class-with-timeout](class/with/timeout.md) - Apply a CSS class after a timeout in milliseconds.
+
+
+[TOC &#187;](#TOC)
+<a name="comps"></a>
+## comps
+
+1. [comps-character](comps/character.md) - Character Display
 
 
 [TOC &#187;](#TOC)
@@ -92,9 +113,12 @@
 <a name="views"></a>
 ## views
 
+1. [views-activate](views/activate.md) - Activation View
+1. [views-collections](views/collections.md) - Colections View
+1. [views-forgot](views/forgot.md) - Forgot Password View
 1. (Login) [views-login](views/login.md) - The login view
-1. [views-search](views/search.md) - Character Search
-1. [views-show](views/show.md) - Show all views in pinium.
+1. [views-reset](views/reset.md) - Reset Password View
+1. [views-signup](views/signup.md) - Sign-Up View
 
 
 [TOC &#187;](#TOC)
@@ -105,8 +129,11 @@
 
 [assets-js](#assets-js)
 <br>[assets-js-cubehenge](#assets-js-cubehenge)
+<br>[assets-js-marvel](#assets-js-marvel)
+<br>[assets-js-token](#assets-js-token)
 <br>[assets-search](#assets-search)
 <br>[class-with](#class-with)
+<br>[comps](#comps)
 <br>[fx-hover](#fx-hover)
 <br>[p](#p)
 <br>[p-layout](#p-layout)
@@ -118,4 +145,4 @@
 <br>
 
 
-**24 Files Total**
+**30 Files Total**

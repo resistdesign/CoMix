@@ -24,7 +24,7 @@ angular.module( "App" )
 					
 					// *** Create Password ***
 					
-					$location.path( "/reset" );
+					$location.path( "/reset/" + tokenModel.activate );
 					
 				}
 				
