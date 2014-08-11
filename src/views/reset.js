@@ -64,7 +64,7 @@ angular.module( "App" )
 							
 							alert( data.faultString );
 							
-						} )
+						} );
 						
 					};
 					

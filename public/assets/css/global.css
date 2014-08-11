@@ -18,3 +18,16 @@ input {
   padding-left: 10px;
   padding-right: 10px;
 }
+.go-btn {
+  transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+}
+.go-btn:focus,
+.go-btn:hover {
+  background: #0D9FFA !important;
+}
+.go-btn:active {
+  opacity: 0.5;
+}

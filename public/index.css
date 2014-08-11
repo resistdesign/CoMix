@@ -7,6 +7,9 @@
 .comix-app .logo.faded {
   opacity: 0.15 !important;
 }
+.comix-app .intro-text {
+  font-family: sans-serif !important;
+}
 .comix-app .beams-group {
   opacity: 0.4;
 }

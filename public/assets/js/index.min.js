@@ -21,10 +21,12 @@ angular.module( "App", [ "PSVG", "ngRoute" ] )
 				.when( "/activate/:token", { directives: { "main": "views-activate" } } )
 				.when( "/reset/:token", { directives: { "main": "views-reset" } } )
 				.when( "/forgot", { directives: { "main": "views-forgot" } } )
+				.when( "/signup", { directives: { "main": "views-signup" } } )
 				
 				// *** Main App Views ***
 				
-				.when( "/search", { directives: { "main": "views-search" } } )
+				.when( "/collections", { directives: { "main": "views-collections" } } )
+				.when( "/show", { directives: { "main": "views-show" } } )
 				
 				// *** Default ***
 				
